@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --green-UP-color: #256a41;
+  --golden-UP-color: #cc961b;
+  --white-UP-color: #eaebed;
+  --dark-grey-UP-color: #292929;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,3 +24,53 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* .green {
+  color: var(--green-UP-color);
+}
+
+.green-bg{
+  background: var(--green-UP-color);
+}
+
+.golden {
+  color: var(--golden-UP-color);
+}
+
+.golden-bg{
+  background: var(--golden-UP-color);
+}
+
+.white {
+  color: var(--white-UP-color);
+}
+
+.white-bg{
+  background: var(--white-UP-color);
+}
+
+.dark-grey {
+  color: var(--dark-grey-UP-color);
+}
+
+.dark-grey-bg{
+  background: var(--dark-grey-UP-color);
+}
+
+.button {
+  background: transparent !important;
+  border: 2px solid var(--green-UP-color);
+}
+
+.button:hover {
+  border: 2px solid var(--white-UP-color);
+}
+
+a {
+  color: var(--white-UP-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--golden-UP-color);
+} */
